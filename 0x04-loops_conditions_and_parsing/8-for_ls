@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
+#Prints list of things in current directory after first "-"
 list=$(ls)
 for i in $list
 do
-echo "$i" | cut -d "-" -f2
+	echo "$i" | cut -d "-" -f2
 done
