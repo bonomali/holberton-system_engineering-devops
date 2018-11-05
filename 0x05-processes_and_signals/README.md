@@ -17,10 +17,7 @@ File|Task
 4-to_infinity_and_beyond | Write a Bash script that displays To infinity and beyond indefinitely.
 5-kill_me_now | a Bash script that kills 4-to_infinity_and_beyond process.
 6-kill_me_now_made_easy| a Bash script that kills 4-to_infinity_and_beyond process.
-7-highlander | a Bash script that displays:
-- To infinity and beyond indefinitely
-- With a sleep 2 in between each iteration
-- I am invincible!!! when receiving a SIGTERM signal
+7-highlander | a Bash script that displays: To infinity and beyond indefinitely, with a sleep 2 in between each iteration, and I am invincible!!! when receiving a SIGTERM signal
 8-beheaded_process | a Bash script that kills the process 7-highlander.
 
 ## Author
