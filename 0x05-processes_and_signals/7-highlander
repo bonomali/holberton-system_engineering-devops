@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#displays the prase indefinitely and does not terminate on SIGTERM
 i="1"
 while ((i == 1))
 do

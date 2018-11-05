@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# displays the phrase indefinitely
 i="1"
 while ((i == 1))
 do
