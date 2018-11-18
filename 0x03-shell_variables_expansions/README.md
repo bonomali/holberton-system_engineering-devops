@@ -35,3 +35,5 @@ This project is to learn and practice the following:
 - How to temporarily disable an alias
 
 - How to execute commands from a file in the current shell
+
+Essence Boayue [Github](https://github.com/eboayue)|[LinkedIn](https://www.linkedin.com/in/essenceboayue/)|[Twitter](https://twitter.com/girlsaregeeks2)

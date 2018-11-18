@@ -21,4 +21,4 @@ File|Task
 8-beheaded_process | a Bash script that kills the process 7-highlander.
 
 ## Author
-Essence Boayue
+Essence Boayue [Github](https://github.com/eboayue)|[LinkedIn](https://www.linkedin.com/in/essenceboayue/)|[Twitter](https://twitter.com/girlsaregeeks2)

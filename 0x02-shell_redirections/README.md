@@ -13,3 +13,5 @@ The purpose of this project is to learn how to do shell redirections and filters
 - How to concatenate files and print on the standard output
 - How to reverse a string
 - How to remove sections from each line of files
+
+Essence Boayue [Github](https://github.com/eboayue)|[LinkedIn](https://www.linkedin.com/in/essenceboayue/)|[Twitter](https://twitter.com/girlsaregeeks2)
