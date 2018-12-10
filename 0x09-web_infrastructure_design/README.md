@@ -12,8 +12,8 @@ During this project I will learn:
 ## Requirements
 
 - A `README.md` file, at the root of the folder of the project, is mandatory
-For each task, once done whiteboarding (on a whiteboard, piece of paper or software or your choice), take a picture/screenshot of the diagram to submit
-Each task will need to be whiteboarded in front of a mentor or staff - no computer or notes will be allowed during the whiteboarding session
+- For each task, once done whiteboarding (on a whiteboard, piece of paper or software or your choice), take a picture/screenshot of the diagram to submit
+- Each task will need to be whiteboarded in front of a mentor or staff - no computer or notes will be allowed during the whiteboarding session
 
 ---
 
