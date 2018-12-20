@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Configures nginx server to redirect to another page
+location="/n/t return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;"
+config_file=/etc/nginx/sites-available/default
+
+apt-get -y update
+apt-get -y install nginx
+echo "Holberton School" > /usr/share/nginx/html/index.html
+
+sed -i "30i $location" $config_file
+service nginx restart
