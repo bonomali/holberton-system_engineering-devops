@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Configures nginx server to redirect to another page
+
+location="location /redirect_me {\n return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n}\n"
+config_file=/etc/nginx/sites-available/default
+fourohfour=/usr/share/nginx/html/404.html
+
+apt-get -y update
+apt-get -y install nginx
+echo "Holberton School" > /usr/share/nginx/html/index.html
+
+sed -i "31i $location" $config_file
+
+echo "Ceci n'est pas une page" > $fourohfour
+sed -i "47i error_page 404 /404.html;" $config_file
+sudo service nginx restart
