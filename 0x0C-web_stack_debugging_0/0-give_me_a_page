@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Fixes the web server by starting it up
+
+sudo service apache2 start
