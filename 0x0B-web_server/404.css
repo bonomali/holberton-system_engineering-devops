@@ -1,0 +1,44 @@
+header {
+	background-color: #4A6478;
+	height: 70px;
+	width: 100%;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: #282430;
+}
+
+footer {
+	display: flex;
+	background-color: #598897;
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	text-align:center;
+	align-items: center;
+	justify-content: center;
+}
+
+.image {
+	width: 57%;
+	height: 57%;
+}
+
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.text {
+	color: #93D3C3;
+	text-align: center;
+	font-size: 300%;
+}
+
+a:link {
+	color: #93D3C3;
+}
