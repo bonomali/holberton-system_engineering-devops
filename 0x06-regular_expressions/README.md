@@ -22,4 +22,3 @@ During this project I will learn:
 
 ## Author
 Essence Boayue [Github](https://github.com/eboayue)|[LinkedIn](https://www.linkedin.com/in/essenceboayue/)|[Twitter](https://twitter.com/girlsaregeeks2)
-d/or become the superuser
