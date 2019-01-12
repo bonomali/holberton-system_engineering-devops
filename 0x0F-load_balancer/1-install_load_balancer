@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# Configures load balancer
+
+config='\nfrontend web_front
+\n\tbind *:80
+\n\tmode http
+\n\tdefault_backend web_back
+\n
+\nbackend http_back
+\n\tbalance roundrobin
+\n\tserver 304-web-01 35.229.29.70:80 check
+\n\tserver 304-web-02 34.73.99.240:80 check\n'
+
+# installation
+apt-get -y install software-properties-common
+add-apt-repository ppa:vbernat/haproxy-1.8
+apt-get -y update
+apt-get -y install haproxy=1.8.\*
+
+# init script enabled
+echo "ENABLED=1" >> /etc/default/haproxy
+
+# roundrobin configuration
+echo -e $config >> /etc/haproxy/haproxy.cfg
+
+sudo service haproxy restart
