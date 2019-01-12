@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Fixes the web server by fixing the symblink between sites-enabled and sites-available
+
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx restart
