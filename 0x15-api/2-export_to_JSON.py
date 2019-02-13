@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """ a Python script that, for a given employee ID, returns information about
-his/her TODO list progress in CSV format """
+his/her TODO list progress in JSON format """
 
 import json
 import requests
