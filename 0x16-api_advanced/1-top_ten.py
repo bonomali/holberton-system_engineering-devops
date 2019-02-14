@@ -10,13 +10,13 @@ def top_ten(subreddit):
         subreddit (string): name of the subreddit
     Return: titles of hot posts
     """
-    url = "https://www.reddit.com/r/{}/hot.json?limit=10".format(subreddit)
-    header = {"user-agent": "top_ten_test"}
-    posts = requests.get(url, headers=header, allow_redirects=False)\
-        .json()["data"]["children"]
-
     try:
+        url = "https://www.reddit.com/r/{}/hot.json?limit=10".format(subreddit)
+        header = {"user-agent": "top_ten_test"}
+        posts = requests.get(url, headers=header, allow_redirects=False)\
+            .json()["data"]["children"]
+
         for post in posts:
-            print ("{}".format(post["data"]["title"]))
+            print("{}".format(post["data"]["title"]))
     except:
-        print ("None")
+        print("None")
