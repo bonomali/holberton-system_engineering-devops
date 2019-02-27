@@ -3,7 +3,7 @@
 ## Description
 
 During this project I will learn:
-- Being able to debug a webstack is essential for a Full-Stack Software Engineer, and it takes practice to be a master it. In this debugging series, broken/bugged webstacks will be concocted and the final goal is to come up with a Bash script that once executed, will bring the webstack to a working state.
+- Being able to debug a webstack is essential for a Full-Stack Software Engineer, and it takes practice to master it. In this debugging series, broken/bugged webstacks will be concocted and the final goal is to come up with a Bash script that once executed, will bring the webstack to a working state.
 ---
 
 ## Requirements
